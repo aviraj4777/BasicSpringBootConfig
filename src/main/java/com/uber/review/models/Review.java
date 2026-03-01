@@ -16,7 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "booking_reviews")
+@Table(name = "booking_review")
 // @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 // @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @Inheritance(strategy = InheritanceType.JOINED)
